@@ -2,7 +2,7 @@
 This Repository contains python code for common DS-Algorithm problems/cases
 
 ### Sorting
-**1. Selection Sort **
+**1. Selection Sort**
 ```
 # Selection Sort
 def selectionSort(arr):
