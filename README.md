@@ -2,7 +2,7 @@
 This Repository contains python code for common DS-Algorithm problems/cases
 
 ### Sorting
-1. Selection Sort 
+**1. Selection Sort **
 ```
 # Selection Sort
 def selectionSort(arr):
@@ -17,7 +17,7 @@ def selectionSort(arr):
     return arr
 ```
 
-2. Bubble Sort
+**2. Bubble Sort**
 ```
 # Bubble Sort
 def bubbleSort(arr):
@@ -28,7 +28,7 @@ def bubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 ```
-3. Insertion Sort 
+**3. Insertion Sort** 
 ```
 # Insertion sort 
 def insertionSort(arr):
@@ -40,7 +40,7 @@ def insertionSort(arr):
             j-=1
     return arr
 ```
-4. Merge Sort 
+**4. Merge Sort** 
 ```
 # Merge sort
 def mergeSort(arr):
@@ -69,7 +69,7 @@ def merge(arr1, arr2):
         j+=1
     return arr
 ```
-5. Quick Sort
+**5. Quick Sort**
 ```
 # Quick Sort
 def quickSort(arr):
